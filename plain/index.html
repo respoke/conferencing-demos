@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Conference widget sample</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+  <div id="conferenceWidget">
+    <p id="loading" class="active">connecting...</p>
+    <div id="conference" class="inactive">
+      <form id="joinForm">
+        <label for="name">Enter your name to join</label>
+        <input id="name" type="text" name="name" placeholder="your name..." required />
+        <input id="joinButton" type="submit" value="Join" />
+      </form>
+      <div id="inProgress">
+        <button id="muteButton">mute mic</button>
+        <button id="leaveButton">leave</button>
+      </div>
+      <p id="noParticipants" class="inactive">The conference is empty</div>
+    <fieldset id="participantDisplay" class="inactive">
+      <legend>Participants</legend>
+      <div id="participants"></div>
+    </fieldset>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/chance/0.5.6/chance.min.js"></script>
+  <script type="text/javascript" src="https://cdn.respoke.io/respoke.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

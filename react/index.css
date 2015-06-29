@@ -1,0 +1,81 @@
+#conferenceWidget {
+  box-sizing: border-box;
+  font-family: 'proxima-nova','helvetica neue', helvetica, arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightblue;
+  border: 1px solid slategray;
+}
+
+#conferenceWidget .loginForm  {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#conferenceWidget input {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#conferenceWidget input, #conferenceWidget button {
+  border-radius: 3px;
+  border: 1px solid slategray;
+  padding: 5px;
+}
+
+#conferenceWidget input[type="submit"], #conferenceWidget button {
+  background-color: lightskyblue;
+}
+
+#conferenceWidget .loginForm input[type="text"] {
+  margin-bottom: 5px;
+}
+
+#conferenceWidget .conferenceControls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+#conferenceWidget .conferenceControls button {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0;
+      -ms-flex: 1 1 0;
+          flex: 1 1 0;
+}
+
+#conferenceWidget .conferenceControls button.leave {
+  margin-left: 5px;
+  background-color: lightpink;
+}
+
+#conferenceWidget .participantList {
+  border: 1px solid lightslategrey;
+  border-radius: 3px;
+  margin: 0;
+}
+#conferenceWidget .participantList legend {
+  padding: 0 5px;
+}
