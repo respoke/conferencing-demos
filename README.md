@@ -1,4 +1,10 @@
 # conferencing demos
+
+<img src="https://cloud.githubusercontent.com/assets/309219/8417356/a8659a36-1e71-11e5-9186-d371a45ffc59.png"
+  style="display: inline-block" alt="screenshot-connected" />
+  <img src="https://cloud.githubusercontent.com/assets/309219/8417357/aa3dfb64-1e71-11e5-8bdc-046a63a7257c.png"
+    style="display: inline-block" alt="screenshot-conferencing" />  
+
 This application is an example of using the conferencing feature of
 [Respoke](https://www.respoke.io) to add realtime multi-party conferencing capabilities to any
 web application. Both applications are functionally identical- the only difference is that one
