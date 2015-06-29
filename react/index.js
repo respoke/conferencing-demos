@@ -225,7 +225,8 @@
         }
       });
 
-      const client = state.client = respoke.createClient();
+      const client = respoke.createClient();
+      this.setState({ client: client });
       client.connect(params).then(() => {
         client.listen('presence', this.handlePresenceChange.bind(this));
         return client.join({ id: 'conference' });
