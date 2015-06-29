@@ -7,7 +7,7 @@
   var client;
 
   var respokeOptions = {
-    appId: '7d002039-508a-4e7f-a567-65b358e23a94',
+    appId: 'abeabbbe-d061-4385-bcda-416909d48586',
     developmentMode: true,
     presence: {
       inConference: false
