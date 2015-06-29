@@ -15,7 +15,7 @@ is written in plain ES5 javascript, while the other is written using the
 ## running the demos
 You can see the demos in action at:
 
-- plan javascript version: https://respoke.github.io/conferencing-demos/plain/
+- plain javascript version: https://respoke.github.io/conferencing-demos/plain/
 - react version: https://respoke.github.io/conferencing-demos/react/
 
 You can also clone this repo and run them yourself using any sort of static file server, such
